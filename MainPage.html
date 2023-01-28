@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Page</title>
+
+    <style>
+      p {
+        border: 1px solid black;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        border: 2px solid pink;
+      }
+
+      td {
+        border: 1px solid blue;
+        text-align: center;
+      }
+
+      body {
+        border: 2px solid green;
+        width: 100%;
+      }
+
+      body,
+      table {
+        min-height: 100vh;
+        max-height: 100vh;
+      }
+
+      dialog {
+        margin-top: 50%;
+        margin-left: 50%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <dialog open>
+      <div id="dialog-content"><button>This is a dialog box</button></div>
+    </dialog>
+
+    <table>
+      <tr>
+        <td>
+          <a href="#">EVENTS</a>
+        </td>
+        <td><a href="##">MERCH</a></td>
+      </tr>
+      <tr>
+        <td><a href="###">ARTICLES</a></td>
+        <td><a href="####">PODCASTS</a></td>
+      </tr>
+    </table>
+  </body>
+</html>
